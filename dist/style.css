@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.input,
+.download-button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Ensures consistent spacing */
+    box-sizing: border-box; /* Include padding and border in element's total width */
+}
+
+.input {
+    border: 1px solid #ccc;
+}
+
+.download-button {
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    opacity: 0.8;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.video-container {
+    display: none;
+    margin-top: 20px;
+}
+
+.video {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.download-link {
+    display: block;
+    margin-top: 10px;
+    color: #ffeb3b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.download-link:hover {
+    text-decoration: underline;
+}
+
+/* Feature Section */
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.feature {
+    width: 30%;
+    text-align: center;
+}
+
+.feature i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #ffeb3b;
+}
+
+.feature h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #ddd;
+}
+
+/* Free Info Section */
+.free-info {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffeb3b;
+}
